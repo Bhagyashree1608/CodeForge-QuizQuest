@@ -1,7 +1,6 @@
 <?php
 session_start();
 include 'api/db.php';
-
 $message = "";
 
 if(isset($_POST['login'])){
@@ -18,7 +17,7 @@ if(isset($_POST['login'])){
         if(password_verify($password, $hashed_password)){
             $_SESSION['user_id'] = $id;
             $_SESSION['username'] = $username;
-            header("Location: quiz.php");
+            header("Location: index.php");
             exit;
         } else {
             $message = "Incorrect password!";
