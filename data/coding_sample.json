@@ -1,0 +1,21 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "answer": "Hypertext Markup Language"
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["//", "<!-- -->", "#"],
+    "answer": "//"
+  },
+  {
+    "question": "Which language is primarily used for styling web pages?",
+    "options": ["HTML", "CSS", "JavaScript"],
+    "answer": "CSS"
+  }
+]
